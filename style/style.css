@@ -1,0 +1,66 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background: black;
+    font-family: 'Signika Negative', sans-serif;
+    color: white;
+    background-image: url('https://source.unsplash.com/collection/190727/1600x900');
+    font-size: 120%;
+}
+.card{
+    padding: 3%;
+    border-radius: 30px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+    background: #000000d0;
+    opacity: 2px;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    margin: 0.5em;
+    border-radius: 50%;
+    border: none;
+    height: 54px;
+    width: 54px;
+    outline: none;
+    background: #7c7c7c2b;
+    color: white;
+}
+button:hover{
+    background: #7c7c7c6b;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+input{
+    border:none;
+    outline: none;
+    padding: 12.8px 16px;
+    border-radius: 24px;
+    background: #7c7c7c2b;
+    color: white;
+    font-family: inherit;
+    font-size: 120%;
+    /* width: calc(100% - 100px); */
+    width: 85%;
+}
+.temp{
+    margin: 0;
+    margin-bottom: 10px;
+}
+.describe{
+    text-transform: capitalize;
+    padding-right: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}
