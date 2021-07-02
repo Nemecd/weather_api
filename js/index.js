@@ -1,9 +1,8 @@
 let weather = {
     "apikey": "c5ef7a1568d930dae67962de3efb300e",
     fetchWeather: function (city) {
-        mode: "no cors";
         fetch(
-            "http://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=metric&appid=" + this.apikey
+            "https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?q="+ city +"&units=metric&appid=" + this.apikey
         )
         .then((res) => res.json())
         .then((data) => this.displayWeather(data))
